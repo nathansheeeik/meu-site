@@ -12,12 +12,13 @@ body {
 }
 
 .logo {
-  width: 230px;
-  max-width: 90%;
+  width: 170px;
+  max-width: 80%;
   display: block;
   margin: 0 auto 10px;
-  border-radius: 20px;
+  border-radius: 18px;
 }
+
 
 .topo p {
   font-size: 20px;
