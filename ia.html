@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IA de Fofocas - Blog RJ</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topo">
+  <h1>🤖 IA de Fofocas</h1>
+  <p>Gerador automático de posts virais</p>
+</header>
+
+<nav class="menu">
+  <a href="index.html">Início</a>
+  <a href="noticias.html">Notícias</a>
+  <a href="ia.html">IA</a>
+  <a href="contato.html">Contato</a>
+</nav>
+
+<section class="hero">
+  <h2>Gerar nova postagem</h2>
+
+  <input id="nome" class="campo" placeholder="Nome do famoso">
+  <input id="tema" class="campo" placeholder="Tema da fofoca">
+
+  <button onclick="gerarPost()">Gerar com IA</button>
+</section>
+
+<section class="posts" id="resultado"></section>
+
+<script src="js/ia.js"></script>
+</body>
+</html>
