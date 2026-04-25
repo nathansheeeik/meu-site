@@ -1,1 +1,1 @@
-const url = `https://newsapi.org/v2/everything?q=(famosos OR celebridades OR influencer OR "BBB" OR "reality show" OR "TikTok")&language=pt&sortBy=publishedAt&pageSize=5&apiKey=${process.env.NEWS_API_KEY}`;
+const url = `https://newsapi.org/v2/everything?q=(famosos OR celebridades OR influencer OR "BBB" OR "reality show" OR "TikTok")&language=pt&sortBy=publishedAt&pageSize=5&apiKey=${process.env43b76bde58984eacb1847755c625c72b
