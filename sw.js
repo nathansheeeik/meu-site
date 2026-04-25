@@ -1,3 +1,3 @@
-self.addEventListener("install", e => {
-  console.log("App instalado");
+self.addEventListener("install", () => {
+  console.log("RJ Fofocas instalado");
 });
