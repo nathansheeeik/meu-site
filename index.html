@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog RJ Fofocas</title>
   <link rel="stylesheet" href="css/style.css">
-</head>
+</head><link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#ff0055">
 <body>
 
 <header class="topo">
@@ -52,6 +53,11 @@
 </footer>
 
 <script src="js/script.js"></script>
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
+</script>
 </body>
 </html
 <a class="btn" href="https://shopee.com.br" target="_blank">
